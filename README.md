@@ -3,9 +3,9 @@
 
 Software per la generazione casuale di esercizi di algebra lineare.
 
-ATTENZIONE: Questo software è ancora in fase sperimentale e viene distribuito senza alcuna garanzia
+### ATTENZIONE: Questo software è ancora in fase sperimentale e viene distribuito senza alcuna garanzia
 
-##CARATTERISTICHE
+## CARATTERISTICHE
 
 Esercizi creati casualmente (con soluzione) con possibilità di personalizzare la dimensione delle matrici e dei vettori (nonché i valori in essi contenuti) per variare il livello di difficoltà.
 
@@ -28,9 +28,11 @@ ATTENZIONE: i risultati forniti potrebbero essere approssimati.
 
 ## INSTALLAZIONE
 
-Il software non necessita di installazione. L'unica dipendenza è il compilatore Julia, installabile da
-http://julialang.org/downloads/
+Il software non necessita di installazione. L'unica dipendenza è il compilatore Julia, installabile dal proprio gestore di pacchetti
 
+### Arch Linux
+
+   # pacman -S julia
 
 ## ESECUZIONE
 
@@ -41,7 +43,7 @@ Esegui da terminale
       ./launch-linux.sh
 
 all'interno della root dell'archivio.
-In caso di problemi legati alla visualizzazione dei colori, modifica l'argomento --color=yes in --color=no (vedi il contenuto di launch-linux.sh)
+In caso di problemi legati alla visualizzazione dei colori, modifica l'argomento `--color=yes` in `--color=no` all'interno del file `launch-linux.sh`
 
 ### Windows
 
@@ -62,20 +64,13 @@ all'interno della root di questo archivio. In caso di problemi con la visualizza
 
 ## CHANGELOG
 
-Versione 0.3 ()
  - Aggiunto il cronometro
-
-Versione 0.2 (21 gennaio 2015)
  - Aggiunto esercizio di proiezione di un vettore su un sottospazio affine in R^3
  - Aggiunti esercizi sui sottospazi (dimensione, dimensione della somma ecc..)
  - Aggiunte matrici rettangolari
  - Aggiunto esercizio di calcolo area di un paralleogramma formato da due vettori
-
-Versione 0.1 (18 gennaio 2015)
-------------
  - Primo rilascio
 
- BUG NOTI
- ========
+## BUG NOTI
 
   - Crash in caso di autovalori complessi
