@@ -28,13 +28,17 @@ ATTENZIONE: i risultati forniti potrebbero essere approssimati.
 
 ## INSTALLAZIONE
 
-Il software non necessita di installazione. L'unica dipendenza è il compilatore Julia, installabile dal proprio gestore di pacchetti
+Il software non necessita di installazione. L'unica dipendenza è il compilatore [Julia](http://julialang.org/), installabile dal proprio gestore di pacchetti
 
 ### Arch Linux
 
-   # pacman -S julia
+      # pacman -S julia
 
 ## ESECUZIONE
+
+Il file può essere eseguito manualmente con il comando
+
+      julia --color=yes ./main.jl
 
 ### Linux
 
